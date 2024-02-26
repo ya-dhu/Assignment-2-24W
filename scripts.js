@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Select tag event listener
     document.getElementById("imageSelect").addEventListener('change', function() {
         var selectedImage = this.value;
-        var imagePath = selectedImage;
+        var imagePath = "img/" + selectedImage;
 
         // Display the selected image
         document.getElementById("imageDisplay").src = imagePath;
